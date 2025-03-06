@@ -11,7 +11,7 @@ export default function Contact() {
     <div className="relative isolate bg-white">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
         {/* Left Column: Stays Visible */}
-        <div className="relative px-6 pb-20 pt-16 sm:pt-24 lg:static lg:px-8 lg:py-36">
+        <div className="relative px-6 pb-20 pt-16 sm:pt-24 lg:static lg:px-8 lg:py-16">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
             <h2 className="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
               Get in touch
@@ -55,7 +55,7 @@ export default function Contact() {
         </div>
 
         {/* Right Column: Form / Success Message */}
-        <div className="px-6 pb-24 pt-16 sm:pb-32 lg:px-8 lg:py-36">
+        <div className="px-6 pb-24 pt-16 sm:pb-32 lg:px-8 lg:py-16">
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
             {state.succeeded ? (
               <div className="p-6 text-center rounded-lg bg-green-100 border border-blue-400">
