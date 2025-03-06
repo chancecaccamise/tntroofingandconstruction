@@ -13,9 +13,7 @@ import NewGallery from "@/components/demos/ui/newGallery";
 
 
 
-import Image from "next/image";
-import Link from "next/link";
-import {Link as ScrollLink, Element} from "react-scroll";
+
 
 
 
