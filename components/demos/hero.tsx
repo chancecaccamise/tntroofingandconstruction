@@ -3,6 +3,8 @@
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Image from 'next/image';
+
 
 const navigation = [
   { name: 'Home', href: '#Home' },
@@ -22,9 +24,11 @@ export default function Example() {
           <div className="flex lg:flex-1">
             <a href="#Home" className="-m-1.5 p-1.5">
               <span className="sr-only">Blue Reef Buffalo</span>
-              <img
+              <Image
                 alt="Blue Reef Buffalo Logo"
                 src="/logo/bluereefbuffalo logo.svg"
+                width={400} 
+                height={300}
                 className="h-16 w-auto"
               />
             </a>
@@ -86,16 +90,18 @@ export default function Example() {
 
       {/* Hero Section */}
       <div className="relative isolate overflow-hidden pt-24 bg-gray-900">
-        <img
+        <Image
           alt="Hero Background"
-          src="tank0Dark BRB.png"
+          src="/tank0Dark BRB.png"
+          width={400} 
+          height={300}
           className="absolute inset-0 -z-10 h-full w-full object-cover"
         />
         <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div className="text-center">
               <h1 className="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">
-                Buffalo's Premier Custom Aquarium Experts
+                Buffalo&apos;s Premier Custom Aquarium Experts
               </h1>
               <p className="mt-8 text-lg font-medium text-gray-300 sm:text-xl">
               Proudly serving local businesses with high-quality, handcrafted fish tanks. Whether you need a sleek office aquarium or a show-stopping centerpiece, we bring aquatic beauty to Buffalo, NY.
