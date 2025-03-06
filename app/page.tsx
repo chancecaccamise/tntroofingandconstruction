@@ -2,24 +2,10 @@
 
 
 
-
-
 import Hero from "@/components/demos/hero";
 import Contact from "@/components/demos/ui/contact";
 import Footer from "@/components/demos/ui/footer";
-
-
 import NewGallery from "@/components/demos/ui/newGallery";
-
-
-
-
-
-
-
-
-
-
 
 
 export default function Home() {
