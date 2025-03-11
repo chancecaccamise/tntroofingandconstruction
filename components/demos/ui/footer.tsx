@@ -36,19 +36,24 @@ export default function Footer(): React.ReactElement {
       React.createElement(
         'div',
         { className: "flex justify-center gap-x-6 md:order-2" },
-        navigation.map((item) => (
+        navigation.map((item) =>
           React.createElement(
             'a',
             { key: item.name, href: item.href, className: "text-gray-700 hover:text-gray-900" },
             React.createElement('span', { className: "sr-only" }, item.name),
             React.createElement(item.icon, { "aria-hidden": "true", className: "size-8" })
           )
-        ))
+        )
       ),
       React.createElement(
         'p',
         { className: "mt-8 text-center text-sm/6 text-gray-700 md:order-1 md:mt-0" },
-        "© 2025 Blue Reef Aquatics, Inc. All rights reserved."
+        "© 2025 Blue Reef Aquatics, Inc. All rights reserved. Website Design By: ",
+        React.createElement(
+          'a',
+          { href: "https://mangiadma.com", target: "_blank", rel: "noopener noreferrer", className: "text-blue-400 hover:underline" },
+          "Mangia Digital Marketing Agency"
+        )
       )
     )
   );
