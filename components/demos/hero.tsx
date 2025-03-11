@@ -104,7 +104,7 @@ export default function Example() {
                 Buffalo&apos;s Premier Custom Aquarium Experts
               </h1>
               <p className="mt-8 text-lg font-medium text-gray-300 sm:text-xl">
-              Proudly serving local businesses with high-quality, artfully fish tanks. Whether you need a sleek office aquarium or a show-stopping centerpiece, we bring aquatic beauty to Buffalo, NY.
+              Proudly serving local businesses with high-quality, artfully crafted fish tanks. Whether you need a sleek office aquarium or a show-stopping centerpiece, we bring aquatic beauty to Buffalo, NY.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
