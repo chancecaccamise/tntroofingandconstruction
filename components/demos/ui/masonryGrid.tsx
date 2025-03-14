@@ -4,12 +4,12 @@ import Image from 'next/image';
 
 const images = [
     "/galleryPicSiding.JPG",
-    "/galleryPicDoor.JPEG",
-    "/galleryPicFraming6.JPEG",
-    "/galleryPicFraming2.JPEG",
+    "/galleryPicDoor.JPG",
+    "/galleryPicFraming6.jpeg",
+    "/galleryPicFraming2.jpeg",
     "/galleryPicRoofing.JPG",
     "/galleryPicRoofing3.JPG",
-    "/flooringPicture.JPEG",
+    "/flooringPicture.jpeg",
     
     
 ];
