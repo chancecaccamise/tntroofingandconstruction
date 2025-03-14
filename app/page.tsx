@@ -2,7 +2,6 @@
 
 
 
-import Hero from "@/components/demos/hero";
 import Contact from "@/components/demos/ui/contact";
 import Footer from "@/components/demos/ui/footer";
 import HeroSectionWithForm from "@/components/demos/ui/heroSectionForm";

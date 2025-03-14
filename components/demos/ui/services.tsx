@@ -14,7 +14,7 @@ const ServicesSection = () => {
         Your Go-To Construction & Repair Specialists
       </h2>
       <p className="mt-4 text-lg text-gray-700 max-w-3xl mx-auto text-center leading-relaxed">
-        Quality craftsmanship that stands the test of time. Whether it's framing, flooring, roofing, or siding, we bring precision and reliability to every project.
+        Quality craftsmanship that stands the test of time. Whether it&apos;s framing, flooring, roofing, or siding, we bring precision and reliability to every project.
       </p>
 
       {/* Grid layout for 2 columns */}
