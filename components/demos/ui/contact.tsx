@@ -5,7 +5,7 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 export default function Contact() {
-  const [state, handleSubmit] = useForm("mrbpzgad");
+  const [state, handleSubmit] = useForm("xoveqgjr");
 
   return (
     <div className="relative isolate bg-white">
@@ -17,7 +17,7 @@ export default function Contact() {
               Get in touch
             </h2>
             <p className="mt-6 text-lg/8 text-gray-600">
-            Ready to transform your space with a stunning fish tank? Whether you need a custom-built aquarium, professional assembly, or ongoing maintenance, we’re here to help. Reach out to us today, and let’s create something extraordinary together!
+            Ready to upgrade your home or business with expert craftsmanship? Whether you need framing, roofing, flooring, or siding, we’re here to deliver durable, high-quality results. Reach out today, and let’s build something great together!
             </p>
             <dl className="mt-10 space-y-4 text-base/7 text-gray-600">
               <div className="flex gap-x-4">
@@ -25,9 +25,8 @@ export default function Contact() {
                   <BuildingOffice2Icon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                 </dt>
                 <dd>
-                  69 Madaline Lane
-                  <br />
-                  Depew, NY 14043
+                  
+                  Lockport, NY 14094
                 </dd>
               </div>
               <div className="flex gap-x-4">
@@ -35,8 +34,8 @@ export default function Contact() {
                   <PhoneIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                 </dt>
                 <dd>
-                  <a href="tel:+1 (716) 771-9033" className="hover:text-blue-500">
-                    +1 (716) 771-9033
+                  <a href="tel:+1 (716) 299-9100" className="hover:text-red-600">
+                    +1 (716) 299-9100
                   </a>
                 </dd>
               </div>
@@ -45,8 +44,8 @@ export default function Contact() {
                   <EnvelopeIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                 </dt>
                 <dd>
-                  <a href="mailto:David@bluereefbuffalo.com" className="hover:text-blue-500">
-                    David@bluereefbuffalo.com
+                  <a href="mailto:nikalisv7@icloud.com" className="hover:text-red-600">
+                  nikalisv7@icloud.com
                   </a>
                 </dd>
               </div>
@@ -74,9 +73,9 @@ export default function Contact() {
                         id="first-name"
                         name="first-name"
                         type="text"
-                        placeholder="David"
+                        placeholder="Nikalis"
                         autoComplete="given-name"
-                        className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-blue-600"
+                        className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-red-600"
                       />
                     </div>
                   </div>
@@ -88,10 +87,10 @@ export default function Contact() {
                       <input
                         id="last-name"
                         name="last-name"
-                        placeholder="Stanley"
+                        placeholder="Voelker"
                         type="text"
                         autoComplete="family-name"
-                        className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-blue-600"
+                        className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-red-600"
                       />
                     </div>
                   </div>
@@ -104,8 +103,8 @@ export default function Contact() {
                         id="email"
                         type="email"
                         name="email"
-                        placeholder="David@bluereefbuffalo.com"
-                        className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-blue-600"
+                        placeholder="voelker716@gmail.com"
+                        className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-red-600"
                       />
                     </div>
                     <ValidationError prefix="Email" field="email" errors={state.errors} />
@@ -118,10 +117,10 @@ export default function Contact() {
                       <input
                         id="phone-number"
                         name="phone-number"
-                        placeholder="(716) 771-9033"
+                        placeholder="(716) 299-9100"
                         type="tel"
                         autoComplete="tel"
-                        className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-blue-600"
+                        className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-red-600"
                       />
                     </div>
                   </div>
@@ -135,7 +134,7 @@ export default function Contact() {
                         name="message"
                         placeholder="Write your message here..."
                         rows={4}
-                        className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-blue-600"
+                        className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-red-600"
                       />
                     </div>
                     <ValidationError prefix="Message" field="message" errors={state.errors} />
@@ -145,7 +144,7 @@ export default function Contact() {
                   <button
                     type="submit"
                     disabled={state.submitting}
-                    className="rounded-md bg-blue-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline-blue-600"
+                    className="rounded-md bg-red-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-red-400 focus-visible:outline-red-600"
                   >
                     Send message
                   </button>

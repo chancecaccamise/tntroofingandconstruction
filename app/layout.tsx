@@ -8,11 +8,11 @@ const font = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Blue Reef Aquatics",
-  description: "Proudly serving local Western New York businesses with high-quality, artfully crafted fish tanks.",
+  title: "Voelker Construction & Repairs",
+  description: "Website Mockup for Voelker Construction & Repairs.",
   icons: {
-    icon: "/bluereefbuffalo logo.ico", // Default favicon
-    shortcut: "/bluereefbuffalo logo.ico", // Shortcut icon for some browsers
+    icon: "/voelker favicon.ico", // Default favicon
+    shortcut: "/voelker favicon.ico", // Shortcut icon for some browsers
   },
 };
 

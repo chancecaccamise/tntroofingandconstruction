@@ -3,13 +3,16 @@ import Image from 'next/image';
 
 
 const images = [
-    "/tank1 BRB.JPEG",
-    "/tank2 BRB.JPEG",
-    "/tank3 BRB.JPEG",
+    "/galleryPicSiding.JPG",
+    "/galleryPicDoor.JPEG",
+    "/galleryPicFraming6.JPEG",
+    "/galleryPicFraming2.JPEG",
     
-    "/tank1-2 BRB.JPEG",
-    "/tank5 BRB.JPEG",
-    "/heroPicture BRB.JPEG",
+    "/galleryPicRoofing.JPG",
+    "/galleryPicRoofing3.JPG",
+    "/flooringPicture.JPEG",
+    
+    
 ];
 
 const MasonryGrid = () => {
