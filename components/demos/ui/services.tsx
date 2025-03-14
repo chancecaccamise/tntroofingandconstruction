@@ -2,9 +2,9 @@ import React from "react";
 
 const services = [
   { name: "Framing", image: "/framingPicture.jpeg", description: "We build strong and reliable framing structures that provide a solid foundation for any project." },
-  { name: "Flooring", image: "/flooringPicture2.jpg", description: "From hardwood to tile, we install high-quality flooring for durability and style." },
-  { name: "Roofing", image: "/roofingPicture2.jpg", description: "Protect your home with expert roofing services designed for longevity and security." },
-  { name: "Siding", image: "/sidingPicture2.jpg", description: "Upgrade your home's exterior with professional siding installation that enhances curb appeal." },
+  { name: "Flooring", image: "/flooringPicture2.JPG", description: "From hardwood to tile, we install high-quality flooring for durability and style." },
+  { name: "Roofing", image: "/roofingPicture2.JPG", description: "Protect your home with expert roofing services designed for longevity and security." },
+  { name: "Siding", image: "/sidingPicture2.JPG", description: "Upgrade your home's exterior with professional siding installation that enhances curb appeal." },
 ];
 
 const ServicesSection = () => {
