@@ -3,13 +3,12 @@ import Image from 'next/image';
 
 
 const images = [
-    "/galleryPicSiding.JPEG",
+    "/galleryPicSiding.JPG",
     "/galleryPicDoor.JPEG",
     "/galleryPicFraming6.JPEG",
     "/galleryPicFraming2.JPEG",
-    
-    "/galleryPicRoofing.JPEG",
-    "/galleryPicRoofing3.JPEG",
+    "/galleryPicRoofing.JPG",
+    "/galleryPicRoofing3.JPG",
     "/flooringPicture.JPEG",
     
     
