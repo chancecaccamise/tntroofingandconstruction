@@ -22,19 +22,19 @@ const ServicesSection = () => {
         {services.map((service, index) => (
           <div 
             key={index} 
-            className="flex items-center bg-white shadow-2xl shadow-gray-500/50 rounded-2xl overflow-hidden p-8"
+            className="flex flex-col md:flex-row items-center bg-white shadow-2xl shadow-gray-500/50 rounded-2xl overflow-hidden p-6 md:p-8 gap-6"
           >
             {/* Larger Uniform Image */}
             <img
               src={service.image}
               alt={service.name}
-              className="w-56 h-56 object-cover rounded-xl"
+              className="w-48 h-48 md:w-56 md:h-56 object-cover rounded-xl"
             />
             
             {/* Text Content */}
-            <div className="ml-8 flex flex-col justify-center">
-              <h3 className="text-3xl font-bold text-gray-900">{service.name}</h3>
-              <p className="text-gray-600 mt-3 text-lg leading-relaxed">{service.description}</p>
+            <div className="text-center md:text-left md:ml-8 flex flex-col justify-center">
+              <h3 className="text-2xl md:text-3xl font-bold text-gray-900">{service.name}</h3>
+              <p className="text-gray-600 mt-2 md:mt-3 text-base md:text-lg leading-relaxed">{service.description}</p>
             </div>
           </div>
         ))}

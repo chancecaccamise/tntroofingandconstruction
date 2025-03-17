@@ -44,8 +44,8 @@ export default function Contact() {
                   <EnvelopeIcon aria-hidden="true" className="h-7 w-6 text-gray-400" />
                 </dt>
                 <dd>
-                  <a href="mailto:nikalisv7@icloud.com" className="hover:text-red-600">
-                  nikalisv7@icloud.com
+                  <a href="mailto:Voelker716@gmail.com" className="hover:text-red-600">
+                  Voelker716@gmail.com
                   </a>
                 </dd>
               </div>
@@ -73,7 +73,7 @@ export default function Contact() {
                         id="first-name"
                         name="first-name"
                         type="text"
-                        placeholder="Nikalis"
+                        placeholder="John"
                         autoComplete="given-name"
                         className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-red-600"
                       />
@@ -87,7 +87,7 @@ export default function Contact() {
                       <input
                         id="last-name"
                         name="last-name"
-                        placeholder="Voelker"
+                        placeholder="Doe"
                         type="text"
                         autoComplete="family-name"
                         className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-red-600"
@@ -103,7 +103,7 @@ export default function Contact() {
                         id="email"
                         type="email"
                         name="email"
-                        placeholder="voelker716@gmail.com"
+                        placeholder="johndoe@gmail.com"
                         className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-red-600"
                       />
                     </div>

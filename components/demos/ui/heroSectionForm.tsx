@@ -96,17 +96,17 @@ export default function HeroSection() {
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
       <div>
         <label htmlFor="first-name" className="block text-sm font-semibold text-gray-900 pb-2">First name</label>
-        <input id="first-name" name="first-name" type="text" placeholder="Nikalis" required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-red-600" />
+        <input id="first-name" name="first-name" type="text" placeholder="John" required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-red-600" />
       </div>
       <div>
         <label htmlFor="last-name" className="block text-sm font-semibold text-gray-900 pb-2">Last name</label>
-        <input id="last-name" name="last-name" type="text" placeholder="Voelker" required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-red-600" />
+        <input id="last-name" name="last-name" type="text" placeholder="Doe" required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-red-600" />
       </div>
     </div>
     <label htmlFor="phone-number" className="block text-sm font-semibold text-gray-900 pb-2">Phone number</label>
     <input id="phone-number" name="phone-number" placeholder="(716) 299-9100" type="tel" required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-red-600" />
     <label htmlFor="email" className="block text-sm font-semibold text-gray-900 pb-2">Email</label>
-    <input id="email" type="email" name="email" placeholder="voelker716@gmail.com" required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-red-600" />
+    <input id="email" type="email" name="email" placeholder="johndoe@gmail.com" required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-red-600" />
     <label htmlFor="message" className="block text-sm font-semibold text-gray-900 pb-2">Message</label>
     <textarea id="message" name="message" placeholder="Write your message here..." rows={4} required className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-red-600"></textarea>
     <button type="submit" disabled={state.submitting} className="w-full bg-red-600 py-2 rounded-md text-white font-semibold hover:bg-red-500">
