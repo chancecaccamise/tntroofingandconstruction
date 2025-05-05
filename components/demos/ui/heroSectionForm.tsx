@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useForm } from '@formspree/react';
 
 const navigation = [
@@ -31,10 +32,10 @@ export default function HeroSection() {
       <header className="bg-white shadow-md fixed inset-x-0 top-0 z-50">
         <nav aria-label="Global" className="relative flex items-center justify-between px-6 py-4 lg:px-8">
           <div className="flex lg:flex-1">
-            <a href="/" className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">TNT Roofing and Construction</span>
               <Image alt="TNT Roofing and Construction" src="/logo/logo.png" width={400} height={300} className="h-24 w-auto" />
-            </a>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
@@ -47,39 +48,39 @@ export default function HeroSection() {
                   </button>
                   <div className="absolute top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-md border border-gray-200 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transform transition duration-200 ease-in-out z-50">
                     {item.items.map((subItem) => (
-                      <a
+                      <Link
                         key={subItem.name}
-                        href={subItem.href}
+                        href={subItem.href || '#'}
                         className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                       >
                         {subItem.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
               ) : (
-                <a
+                <Link
                   key={item.name}
-                  href={item.href}
+                  href={item.href || '#'}
                   className="text-lg font-semibold text-gray-900 hover:text-blue-400"
                 >
                   {item.name}
-                </a>
+                </Link>
               )
             )}
           </div>
 
-          {/* Right Section: Phone + Button */}
+          {/* Right Section */}
           <div className="hidden lg:flex lg:items-center space-x-6">
             <a href="tel:9194381132" className="text-lg font-semibold text-gray-900 hover:text-blue-400">
               (919) 438-1132
             </a>
-            <a
+            <Link
               href="/contact"
               className="rounded-md bg-blue-400 px-4 py-2.5 text-white text-sm font-semibold shadow-md hover:bg-blue-500"
             >
               Get a Free Estimate Today
-            </a>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -111,39 +112,38 @@ export default function HeroSection() {
                         </span>
                         <div className="pl-4 space-y-1">
                           {item.items.map((subItem) => (
-                            <a
+                            <Link
                               key={subItem.name}
-                              href={subItem.href}
+                              href={subItem.href || '#'}
                               className="block rounded-lg px-3 py-2 text-base text-gray-700 hover:bg-gray-100"
                             >
                               {subItem.name}
-                            </a>
+                            </Link>
                           ))}
                         </div>
                       </div>
                     ) : (
-                      <a
+                      <Link
                         key={item.name}
-                        href={item.href}
+                        href={item.href || '#'}
                         className="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold text-gray-900 hover:bg-gray-100"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     )
                   )}
                 </div>
 
-                {/* Phone + CTA in mobile menu */}
                 <div className="pt-6 border-t border-gray-200 space-y-4">
                   <a href="tel:9194381132" className="block text-base font-medium text-gray-900">
                     (919) 438-1132
                   </a>
-                  <a
+                  <Link
                     href="/contact"
                     className="block w-full text-center rounded-md bg-blue-400 px-4 py-2 text-white font-semibold hover:bg-blue-500"
                   >
                     Get a Free Estimate Today
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -163,10 +163,10 @@ export default function HeroSection() {
         Protect your home with expert <strong>roof replacements</strong>, <strong>storm damage repairs</strong>, and thorough <strong>roof inspections</strong>—all backed by trusted craftsmanship and high-quality materials. Serving Raleigh, Garner, and surrounding areas, our licensed roofing contractors are here to deliver results that last.
       </p>
       <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-        <a href="#Services" className="rounded-md bg-blue-400 px-5 py-2.5 text-white text-lg font-semibold shadow-md hover:bg-blue-500">
+        <a href="/services/roofing" className="rounded-md bg-blue-400 px-5 py-2.5 text-white text-lg font-semibold shadow-md hover:bg-blue-500">
           OUR SERVICES
         </a>
-        <a href="#Contact" className="rounded-md border border-white px-5 py-2.5 text-lg font-semibold text-white hover:bg-white hover:text-gray-900">
+        <a href="/contact" className="rounded-md border border-white px-5 py-2.5 text-lg font-semibold text-white hover:bg-white hover:text-gray-900">
           CONTACT US
         </a>
       </div>
@@ -234,7 +234,7 @@ export default function HeroSection() {
                 </div>
 
                 <button type="submit" disabled={state.submitting} className="w-full bg-blue-400 py-2 rounded-md text-white font-semibold hover:bg-blue-500">
-                  Send Message
+                  Get a Free Estimate Today
                 </button>
               </form>
             )}

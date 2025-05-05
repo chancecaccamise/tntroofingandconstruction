@@ -41,10 +41,10 @@ export default function SidingFeatureTwo() {
           <div>
             <h3 className="text-3xl font-bold text-gray-900">Siding Replacement</h3>
             <p className="mt-4 text-lg text-gray-700">
-              When damage is beyond repair, or your current siding no longer meets your home's protection or energy-efficiency needs, our team provides expert <strong>siding replacement services</strong> throughout North Carolina. We manage the entire process—from material selection to final installation—with a focus on durability, aesthetics, and long-term value.
+              When damage is beyond repair, or your current siding no longer meets your home&apos;s protection or energy-efficiency needs, our team provides expert <strong>siding replacement services</strong> throughout North Carolina. We manage the entire process—from material selection to final installation—with a focus on durability, aesthetics, and long-term value.
             </p>
             <p className="mt-4 text-lg text-gray-700">
-              We offer a wide variety of high-performance siding materials including vinyl, fiber cement, and engineered wood—each designed to withstand the region’s climate conditions. Our siding contractors will help you find the perfect fit for your home and budget while improving resale value and reducing maintenance needs.
+              We offer a wide variety of high-performance siding materials including vinyl, fiber cement, and engineered wood—each designed to withstand the region&apos;s climate conditions. Our siding contractors will help you find the perfect fit for your home and budget while improving resale value and reducing maintenance needs.
             </p>
           </div>
         </div>

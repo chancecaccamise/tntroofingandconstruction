@@ -85,7 +85,7 @@ export default function RoofingContact() {
               </div>
 
               <button type="submit" disabled={state.submitting} className="w-full bg-blue-400 py-2 rounded-md text-white font-semibold hover:bg-blue-500">
-                Send Message
+                Get a Free Estimate Today
               </button>
             </form>
           )}

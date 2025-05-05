@@ -22,7 +22,7 @@ export default function ShingleDamageGrid() {
           Common Shingle Damage Signs
         </h2>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12">
-          Shingles are your roof’s first line of defense, but over time they face wear from UV rays, heavy rain, and high winds. Here are common signs it's time for a professional roof assessment.
+          Shingles are your roof&apos;s first line of defense, but over time they face wear from UV rays, heavy rain, and high winds. Here are common signs it&apos;s time for a professional roof assessment.
         </p>
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">

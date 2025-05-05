@@ -31,7 +31,7 @@ export default function CareerFeature() {
             </p>
             <p className="mt-6 text-lg text-gray-700">
               At TNT Roofing and Construction, we&apos;re always looking for dependable, motivated individuals to join our growing crew.
-              Whether you're on the roof or in the office, you'll be part of a team that values quality work, accountability, and growth.
+              Whether you&apos;re on the roof or in the office, you&apos;ll be part of a team that values quality work, accountability, and growth.
             </p>
 
             <dl className="mt-10 space-y-6 text-base text-gray-600">
