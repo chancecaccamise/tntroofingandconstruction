@@ -65,7 +65,7 @@ export default function RoofingServices() {
   With years of experience serving homeowners and businesses across North Carolina, TNT Roofing and Construction is committed to protecting what matters most. As a full-service roofing and exterior contractor based in Garner, we offer expert solutions in roof repair, roof replacement, and custom installations — all designed to boost your home&apos;s safety, energy efficiency, and long-term value.
 </p>
 <p className="text-gray-700 mb-6">
-  We proudly serve Raleigh, Garner, and the surrounding areas with high-quality craftsmanship and dependable service. Whether you're facing storm damage, dealing with aging shingles, or planning a full exterior renovation, our licensed and insured team brings professionalism and care to every project. Trust TNT Roofing and Construction to deliver results that last — and peace of mind that you&apos;re covered from the top down.
+  We proudly serve Raleigh and the surrounding areas with high-quality craftsmanship and dependable service. Whether you're facing storm damage, dealing with aging shingles, or planning a full exterior renovation, our licensed and insured team brings professionalism and care to every project. Trust TNT Roofing and Construction to deliver results that last — and peace of mind that you&apos;re covered from the top down.
 </p>
           <a href="#services" className="text-blue-400 font-bold uppercase text-sm hover:underline">
             See All Services
