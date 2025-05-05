@@ -11,7 +11,7 @@ interface NavigationItem {
 const navigation: NavigationItem[] = [
   {
     name: 'Facebook',
-    href: 'https://www.facebook.com/Voelker2020',
+    href: 'https://www.facebook.com/share/17fio4VHfy/?mibextid=wwXIfr',
     icon: (props: React.SVGProps<SVGSVGElement>) => (
       React.createElement(
         'svg',
@@ -26,7 +26,7 @@ const navigation: NavigationItem[] = [
   },
   {
     name: 'Instagram',
-    href: 'https://www.instagram.com/voelkerconstruction716/',
+    href: 'https://www.instagram.com/tntroofingandconstruction/',
     icon: (props) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
@@ -61,10 +61,10 @@ export default function Footer(): React.ReactElement {
       React.createElement(
         'p',
         { className: "mt-8 text-center text-sm/6 text-gray-700 md:order-1 md:mt-0" },
-        "© 2025 Voelker Construction and Repair, Inc. All rights reserved. Website Design By: ",
+        "© 2025 TNT Roofing and Construction, Inc. All rights reserved. Website Design By: ",
         React.createElement(
           'a',
-          { href: "https://mangiadma.com", target: "_blank", rel: "noopener noreferrer", className: "text-red-600 hover:underline" },
+          { href: "https://mangiadma.com", target: "_blank", rel: "noopener noreferrer", className: "text-blue-400 hover:underline" },
           "Mangia Digital Marketing Agency"
         )
       )

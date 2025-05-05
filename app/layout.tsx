@@ -8,8 +8,8 @@ const font = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Voelker Construction & Repairs",
-  description: "Website Mockup for Voelker Construction & Repairs.",
+  title: "TNT Roofing and Construction",
+  description: "Providing expert framing, roofing, siding, and flooring services built to last.",
   icons: {
     icon: "/voelker favicon.ico", // Default favicon
     shortcut: "/voelker favicon.ico", // Shortcut icon for some browsers

@@ -2,15 +2,14 @@
 
 
 
-import Contact from "@/components/demos/ui/contact";
+import ContactUs from "@/components/demos/ui/contactUs";
 import FAQ from "@/components/demos/ui/faq";
 import RoofingServices from "@/components/demos/ui/FeatureSection";
 import AboutHighlight from "@/components/demos/ui/FeatureSectionTwo";
 import Footer from "@/components/demos/ui/footer";
-import LocationSection from "@/components/demos/ui/googlemapsFeature";
 import HeroSectionWithForm from "@/components/demos/ui/heroSectionForm";
-import NewGallery from "@/components/demos/ui/newGallery";
-import ServicesSection from "@/components/demos/ui/services";
+import Navbar from "@/components/demos/ui/navbar";
+
 import { TestimonialCarousel } from "@/components/demos/ui/testimonial";
 
 
@@ -22,16 +21,10 @@ export default function Home() {
 
       
       <section id="Home">
-        <HeroSectionWithForm/>
+        <Navbar/>
+        <ContactUs/>
       </section>
-      <section>
-        <RoofingServices/>
-        <AboutHighlight/>
-        <LocationSection/>
-
-        <TestimonialCarousel/>
-        <FAQ/>
-      </section>
+    
       
       
       <section>

@@ -2,15 +2,16 @@
 
 
 
-import Contact from "@/components/demos/ui/contact";
 import FAQ from "@/components/demos/ui/faq";
 import RoofingServices from "@/components/demos/ui/FeatureSection";
 import AboutHighlight from "@/components/demos/ui/FeatureSectionTwo";
 import Footer from "@/components/demos/ui/footer";
-import LocationSection from "@/components/demos/ui/googlemapsFeature";
 import HeroSectionWithForm from "@/components/demos/ui/heroSectionForm";
-import NewGallery from "@/components/demos/ui/newGallery";
-import ServicesSection from "@/components/demos/ui/services";
+import Navbar from "@/components/demos/ui/navbar";
+import RoofingContact from "@/components/demos/ui/roofingContact";
+import RoofingSystems from "@/components/demos/ui/roofingSystemsLanding";
+import ShingleDamageGrid from "@/components/demos/ui/shingles";
+
 import { TestimonialCarousel } from "@/components/demos/ui/testimonial";
 
 
@@ -20,18 +21,14 @@ export default function Home() {
 
 
 
-      
+        <Navbar/>
       <section id="Home">
-        <HeroSectionWithForm/>
+        
+        <RoofingSystems/>
+        <ShingleDamageGrid/>
+        <RoofingContact/>
       </section>
-      <section>
-        <RoofingServices/>
-        <AboutHighlight/>
-        <LocationSection/>
-
-        <TestimonialCarousel/>
-        <FAQ/>
-      </section>
+    
       
       
       <section>

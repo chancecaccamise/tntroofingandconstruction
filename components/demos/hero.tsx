@@ -24,7 +24,7 @@ export default function Example() {
           {/* Logo on the Left */}
           <div className="flex lg:flex-1">
             <a href="#Home" className="-m-1.5 p-1.5">
-              <span className="sr-only">Voelker Construction & Repair</span>
+              <span className="sr-only">TNT Construction & Repair</span>
               <Image
                 alt="Voelker Construction & Repair Logo"
                 src="/logo/Final Format_Voelker Construction And Repair.png"
