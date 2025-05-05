@@ -93,7 +93,7 @@ export function CareerForm() {
 
         {/* Submit */}
         <div className="text-center">
-          <button type="submit" disabled={state.submitting} className="mt-8 px-8 py-4 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-500">
+          <button type="submit" disabled={state.submitting} className="mt-8 px-8 py-4 bg-blue-400 text-white font-semibold rounded-md hover:bg-blue-500">
             Submit Application
           </button>
         </div>
