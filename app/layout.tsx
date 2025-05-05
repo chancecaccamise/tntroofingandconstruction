@@ -9,10 +9,10 @@ const font = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: "TNT Roofing and Construction",
-  description: "Providing expert framing, roofing, siding, and flooring services built to last.",
+  description: "Trusted roofing and construction experts in North Carolina—specializing in roof replacement, siding, gutters, and framing built for durability and curb appeal.",
   icons: {
-    icon: "/voelker favicon.ico", // Default favicon
-    shortcut: "/voelker favicon.ico", // Shortcut icon for some browsers
+    icon: "/tnt roofing favicon.ico", // Default favicon
+    shortcut: "/tnt roofing favicon.ico", // Shortcut icon for some browsers
   },
 };
 
