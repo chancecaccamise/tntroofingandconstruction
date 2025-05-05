@@ -44,7 +44,7 @@ export default function GutterFeatureTwo() {
               Reduce your need for seasonal cleanings and protect your gutter system with professionally installed <strong>gutter guards</strong>. These protective barriers block out leaves, pine needles, and debris—while still allowing rainwater to pass through with ease.
             </p>
             <p className="mt-4 text-lg text-gray-700">
-              We help you select the ideal gutter guard solution based on your roof design, local tree coverage, and budget. Whether you're upgrading an existing system or starting fresh, our guards offer long-term protection and peace of mind during even the heaviest North Carolina storms.
+              We help you select the ideal gutter guard solution based on your roof design, local tree coverage, and budget. Whether you&apos;re upgrading an existing system or starting fresh, our guards offer long-term protection and peace of mind during even the heaviest North Carolina storms.
             </p>
           </div>
         </div>

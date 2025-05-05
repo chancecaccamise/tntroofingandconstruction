@@ -1,6 +1,6 @@
 'use client';
 
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
 import React from 'react';
 
 export default function GutterContact() {

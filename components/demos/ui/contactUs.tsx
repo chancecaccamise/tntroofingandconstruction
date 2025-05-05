@@ -2,7 +2,7 @@
 
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline';
 import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
 
 export default function ContactUs() {
   const [state, handleSubmit] = useForm("xeogelkl");

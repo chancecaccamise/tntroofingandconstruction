@@ -1,6 +1,6 @@
 'use client';
 
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
 import React from 'react';
 
 export default function RoofingContact() {
@@ -16,7 +16,7 @@ export default function RoofingContact() {
               Book a Free Roofing Estimate
             </h2>
             <p className="mt-6 text-lg text-gray-600">
-              Whether you're dealing with cracked shingles, storm damage, or you're just due for a roof inspection — we make it easy to get the expert help you need. Our team specializes in roof repairs, replacements, and full inspections across the Raleigh and Garner areas.
+              Whether you&apos;re dealing with cracked shingles, storm damage, or you&apos;re just due for a roof inspection — we make it easy to get the expert help you need. Our team specializes in roof repairs, replacements, and full inspections across the Raleigh and Garner areas.
               <br /><br />
               Fill out the form to schedule your free consultation. One of our roofing professionals will get back to you shortly to discuss your needs and next steps.
             </p>

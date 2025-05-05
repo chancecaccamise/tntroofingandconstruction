@@ -12,7 +12,7 @@ export default function SidingFeatureOne() {
         <div>
           <h3 className="text-3xl font-bold text-gray-900">Professional Siding Inspections</h3>
           <p className="mt-4 text-gray-700 text-lg">
-            Our certified North Carolina siding experts provide <strong>thorough siding inspections</strong> to uncover hidden damage and prevent future structural issues. Whether you're preparing for a remodel or responding to storm damage, our team evaluates your home’s exterior with precision—checking for early warning signs that could compromise your siding’s performance and curb appeal.
+            Our certified North Carolina siding experts provide <strong>thorough siding inspections</strong> to uncover hidden damage and prevent future structural issues. Whether you&apos;re preparing for a remodel or responding to storm damage, our team evaluates your home’s exterior with precision—checking for early warning signs that could compromise your siding’s performance and curb appeal.
           </p>
           <ul className="mt-6 list-disc list-inside text-gray-700 space-y-2">
             <li>Hairline cracks, punctures, or panel gaps</li>

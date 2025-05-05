@@ -20,7 +20,7 @@ export default function SidingFeatureTwo() {
           <div>
             <h3 className="text-3xl font-bold text-gray-900">Siding Cleaning</h3>
             <p className="mt-4 text-lg text-gray-700">
-              Over time, grime, algae, and mold can take a toll on your home’s siding—fading its color and reducing your curb appeal. Our <strong>professional siding cleaning services</strong> in North Carolina are designed to remove tough buildup without compromising the integrity of your exterior materials.
+              Over time, grime, algae, and mold can take a toll on your home&apos;s siding—fading its color and reducing your curb appeal. Our <strong>professional siding cleaning services</strong> in North Carolina are designed to remove tough buildup without compromising the integrity of your exterior materials.
             </p>
             <p className="mt-4 text-lg text-gray-700">
               We use specialized low-pressure soft washing methods and eco-safe cleaning solutions tailored to your siding type—whether vinyl, wood, or fiber cement. This ensures a deep, damage-free clean that leaves your home looking refreshed, protected, and ready for any season.
