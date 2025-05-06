@@ -67,9 +67,7 @@ export default function RoofingServices() {
 <p className="text-gray-700 mb-6">
   We proudly serve Raleigh and the surrounding areas with high-quality craftsmanship and dependable service. Whether you&apos;re facing storm damage, dealing with aging shingles, or planning a full exterior renovation, our licensed and insured team brings professionalism and care to every project. Trust TNT Roofing and Construction to deliver results that last — and peace of mind that you&apos;re covered from the top down.
 </p>
-          <a href="#services" className="text-blue-400 font-bold uppercase text-sm hover:underline">
-            See All Services
-          </a>
+          
         </div>
       </div>
     </section>
